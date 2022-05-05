@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        background-color: chartreuse;
+       }
+    form{
+        background-color: #00ffa6;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background-image: url("flowers/flower3.jpeg");
+
+    }
+
+</style>
+<body>
+<h1>Registration Form</h1>
+<form action="">
+    <label for="fname">FirstName</label><br>
+    <input type="text"id="fname"placeholder="enter first name"><br>
+    <label for="sname">SecondName</label><br>
+    <input type="text"id="sname"placeholder="enter first name"><br>
+    <label for="DOR">Date Of Registration</label><br>
+    <input type="date"id="DOR"placeholder="enter current date"><br>
+    <label for="email">Email Address</label><br>
+    <input type="email"id="email"placeholder="enter email address"><br>
+    <label for="pass">password</label><br>
+    <input type="text"id="pass"placeholder="enter password"><br>
+    <input type="submit" value="log in here">
+    <label for="course">course taken</label>
+    <select name="course" id="course">
+        <option value="Fullstack software">Fullstack</option>
+        <option value="python">python</option>
+        <option value="javascript">Javascript</option>
+        <option value="Android">Android</option>
+        <option value="Ruby">Ruby</option>
+        <option value="CSS">CSS</option>
+        <option value="PHP">PHP</option>
+        <option value="C++">C++</option>
+    </select>
+    <label for="file">image uploaded</label>
+    <input type="file"id="file"placeholder="upload image"><br>
+    gender
+ <label for="male">Male</label><br>
+<input type="radio"id="male" name="gender"><br>
+<label for="female">Female</label><br>
+<input type="radio"id="female" name="Gender"><br>
+    <button type="button"onclick="alert('this is wonderful')"></button>
+
+
+
+</form>
+</body>
+</html>
